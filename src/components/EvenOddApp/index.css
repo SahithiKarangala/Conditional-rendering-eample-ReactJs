@@ -1,0 +1,50 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80%;
+  max-height: 90%;
+  min-width: 80%;
+  max-width: 90%;
+}
+
+.card-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  border-style: none;
+}
+.main-heading {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  padding: 5px;
+}
+.result {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #334155;
+  padding: 5px;
+}
+.increment-button {
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: none;
+}
+.note {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #334155;
+  padding: 5px;
+}
